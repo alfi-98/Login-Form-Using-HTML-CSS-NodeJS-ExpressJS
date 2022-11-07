@@ -50,4 +50,4 @@
   - create and save user information in a session
   
 #How data is sent to the database:
-- After parsing register.html file, the user credentials is sent to the server using the ```app.post()``` routing method. 
+- After parsing register.html file, the user credentials is sent to the server calling the ```app.post()``` routing method. 
