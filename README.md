@@ -49,4 +49,5 @@
   - checked if the user is already registered 
   - create and save user information in a session
   
-
+#How data is sent to the database:
+- After parsing register.html file, the username and password is sent to the server using the ```app.post()``` routing method. 
