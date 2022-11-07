@@ -25,7 +25,8 @@
   reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAPM ON UPDATE CURRENT_TIMESTAMP
   ```
   
-## Using Node.js and Express.js for web server:
+## Setting up the web server:
+- The web  Node.js and Express.js for
 - we at first set an express server on port 4000 using the following code
   ```
   const express = require('express');
