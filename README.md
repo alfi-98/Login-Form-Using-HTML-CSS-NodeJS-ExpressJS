@@ -38,7 +38,7 @@
 - the above server has 5 routes 
 
 ## Middleware:
-- When a login request to our server is made, the server will create an express-session and store it on the server-side. When the server responds to the  client, it sends a cookie. This cookie will contain the session’s secret-id stored on the server, which will now be stored on the client. To execute this middleware we have used the ```user``` function in ```server.js```
+- When a login request to our server is made, the server will create an express-session and store it on the server-side. When the server responds to the  client, it sends a cookie. This cookie will contain the session’s secret-id stored on the server, which will now be stored on the client. To execute this middleware we have used the ```use``` function in ```server.js```
 
 
 ## Extracting data from register.html and login.html file:
