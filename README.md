@@ -25,3 +25,9 @@ Database:
   reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAPM ON UPDATE CURRENT_TIMESTAMP
   ```
   
+Using Node.js and Express.js for web server:
+- we at first start set an express server on port 4000 using the following code
+  ```
+  const express = require('express');
+  const app = express();
+  ```
